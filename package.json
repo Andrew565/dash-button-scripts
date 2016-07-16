@@ -1,0 +1,22 @@
+{
+  "name": "dash-button-scripts",
+  "version": "1.0.0",
+  "description": "Scripts for handling Amazon Dash Button presses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "amazon",
+    "dash",
+    "button",
+    "osx",
+    "macos"
+  ],
+  "author": "Andrew Steele",
+  "license": "ISC",
+  "dependencies": {
+    "applescript": "^1.0.0",
+    "node-dash-button": "^0.5.0"
+  }
+}
