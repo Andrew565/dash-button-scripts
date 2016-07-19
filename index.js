@@ -9,7 +9,7 @@ var buttons = [
 	"74:c2:46:4f:bf:88" // Quest Button
 ];
 
-var dash = dash_button(buttons, null, 10000); // Initializes the listener with what addresses to listen to
+var dash = dash_button(buttons, null, 30000); // Initializes the listener with what addresses to listen to
 
 dash.on("detected", function(dash_id) {
 	if (dash_id === buttons[0]) {
